@@ -11,14 +11,21 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css" title="docsify-darklight-theme" type="text/css" />
 </head>
 <body>
+  <style>
+    #docsify-darklight-theme {
+      position: fixed !important;
+      right: 20px !important;
+      top: 15px !important;
+    }
+  </style>
   <div id="app"></div>
   <script>
     window.$docsify = {
       basePath: '/', // 资源相对路径
       name: 'Docs', // 文档标题，会显示在侧边栏顶部
       nameLink: '/', // 点击文档标题后的跳转地址
-      repo: 'Xooone47/docs.git', // 有repo属性则右上角会展示github图标，点击可进入
-      cornerExternalLinkTarget: '_blank', // 右上角链接的打开方式。默认为 _blank
+      // repo: 'Xooone47/docs.git', // 有repo属性则右上角会展示github图标，点击可进入
+      // cornerExternalLinkTarget: '_blank', // 右上角链接的打开方式。默认为 _blank
       loadSidebar: true, // 加载侧边栏
       externalLinkTarget: '_blank', // 外部链接的打开方式，默认_blank
       routerMode: 'hash', // 路由方式 默认hash
@@ -30,12 +37,11 @@
         placeholder: '🔍 Search',
         noData: '😞 Not found'
       },
-    //   count: { // 字数统计插件配置
-    //     countable: true,
-    //     fontsize: '0.9em',
-    //     color: 'rgb(90,90,90)',
-    //     language: 'chinese'
-    //   },
+      // count: { // 字数统计插件配置
+      //   countable: true,
+      //   fontsize: '0.9em',
+      //   color: 'rgb(90,90,90)',
+      // },
       pagination: { // 分页插件配置
         previousText: 'Prev',
         nextText: 'Next',
@@ -53,7 +59,7 @@
       themeColor: "#42b983", // 暗黑模式主题色
       darklightTheme: {
         siteFont: "PT Sans",
-        defaultTheme: 'dark',
+        defaultTheme: 'light',
         codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
         bodyFontSize: '17px',
         dark: {
