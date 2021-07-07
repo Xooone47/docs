@@ -1,8 +1,5 @@
-- JavaScript
-  - [闭包](docs/test.md)
+- 技术文章
+  - [索引](docs/indexes.md)
 
-- Node
-  - [多线程](docs/node/多线程.md)
-
-- Webpack
-  - [【Webpack进阶】Loader深入解析](docs/webpack/【Webpack进阶】Loader深入解析.md)
+<!-- - Node
+  - [多线程](docs/node/多线程.md) -->

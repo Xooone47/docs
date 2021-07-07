@@ -1,1 +1,1 @@
-# Welcome [Here](https://xooone47.github.io/docs/)
+# [Welcome Here](https://xooone47.github.io/docs/)
