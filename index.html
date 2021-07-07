@@ -21,7 +21,8 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      basePath: '/', // 资源相对路径
+      // basePath: '/', // 资源相对路径
+      basePath: window.location.host === 'xooone47.github.io' ? '/docs/' : '/',
       name: 'Docs', // 文档标题，会显示在侧边栏顶部
       nameLink: '/', // 点击文档标题后的跳转地址
       // logo: 'star.png',
