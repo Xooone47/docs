@@ -19,6 +19,8 @@
     }
   </style>
   <div id="app"></div>
+  <!-- 在github上编辑插件，需要在配置之前加载 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
   <script>
     window.$docsify = {
       // basePath: '/', // 资源相对路径
@@ -50,13 +52,13 @@
         crossChapter: true,
       },
       plugins: [
-        // EditOnGithubPlugin.create(
-        //   'https://github.com/Xooone47/docs/blob/main/',
-        //   null,
-        //   function (file) {
-        //     return 'Edit on Github';
-        //   }
-        // )
+        window.EditOnGithubPlugin.create(
+          'https://github.com/Xooone47/docs/blob/main/',
+          null,
+          function (file) {
+            return 'Edit on Github';
+          }
+        )
       ],
       themeColor: "#42b983", // 主题色
       darklightTheme: {
@@ -112,7 +114,5 @@
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <!-- 暗黑主题切换插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
-  <!-- 在github上编辑插件 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
 </body>
 </html>
