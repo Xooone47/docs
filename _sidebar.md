@@ -2,4 +2,4 @@
   - [索引](docs/indexes.md)
 
 - 轮子
-  - [索引](docs/packages.md) -->
+  - [索引](docs/packages.md)
