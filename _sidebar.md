@@ -1,3 +1,3 @@
 - [Articles](docs/indexes.md)
 
-- [Articles](docs/packages.md)
+- [Packages](docs/packages.md)
