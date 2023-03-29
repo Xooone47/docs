@@ -11,6 +11,7 @@
 - [2021年的React状态管理](https://juejin.cn/post/7026232873233416223)
 - [Vue调试技巧：在Devtool中一键打开组件源码](https://juejin.cn/post/6943571484409331719)
 - [前端数据流之理解RxJS](https://juejin.cn/post/7189575760191946810)
+- [前端数据流简史](https://juejin.cn/post/7215783440619323453)
 
 #### 包管理
 
