@@ -1,3 +1,6 @@
-# [Welcome Here](https://xooone47.github.io/docs/)
+# [Welcome Here!](https://xooone47.github.io/docs/)
 
-Contact me: insidethe47s@gmail.com
+## Contact Me 
+Email: insidethe47s@gmail.com
+Github: https://github.com/Xooone47
+Juejin: https://juejin.cn/user/3069492195765597
