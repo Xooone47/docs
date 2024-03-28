@@ -1,4 +1,4 @@
-#### Ccaffold
+#### Scaffold
 
 - [vite-plugin-deadcodes](https://www.npmjs.com/package/vite-plugin-deadcodes)
 - [build-records-webpack-plugin](https://www.npmjs.com/package/build-records-webpack-plugin)
